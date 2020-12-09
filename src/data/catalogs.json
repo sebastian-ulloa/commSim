@@ -1,0 +1,167 @@
+{
+    "catalogs": [{
+        "id": "e3ee4fbb-4067-4f49-b69f-ef3a1d201b1c",
+        "name": "Test_Catalog",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": [{
+            "name": "testAsset",
+            "id": "d6f54f12-215f-4a8c-aae2-1ab7c35cb03e",
+            "title": "Test Asset 1",
+            "search_input": "Test Asset",
+            "synopsis": "An asset is searched and found",
+            "asset_type": "Test",
+            "season_number": "1",
+            "episode_number": "1",
+            "air_date": "2019-11-15T00:00:00.000Z",
+            "capture_id": null,
+            "play_duration": null,
+            "availability_date": "2019-11-16T00:00:00.000Z",
+            "expiry_date": "2019-12-15T00:00:00.000Z",
+            "vod_asset_id": "1430c6f5-4b02-4e05-bb35-bd0ea0505fdb",
+            "priority": 1,
+            "created_at": "2019-11-20T20:56:12.865Z",
+            "poster": null,
+            "properties_attributes": []
+        }]
+    },
+    {
+        "id": "9cc955de-2e96-4b1e-a3ba-b7ccacffe5e0",
+        "name": "[PREPROD] Peacock_Chrome_Priority",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [{
+            "type": "task",
+            "uuid": "a5986a4f-134f-4653-8fa7-bb422aed6eb2"
+        },
+        {
+            "type": "task",
+            "uuid": "bc5d6476-8ab5-4a84-a191-a3e1080fde72"
+        }
+        ],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "49c37b93-546b-4713-8142-27aca8e42297",
+        "name": "TEST",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "63b71755-0aa1-4554-9ae4-0a845716df46",
+        "name": "[PREPROD] Peacock_Firefox_Priority",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "6acf99e0-e660-497b-93c2-76eca85d6717",
+        "name": "[PREPROD] Peacock_Firefox_Regular",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "ac26e3d8-282a-477e-8fd8-39380cdcbf4b",
+        "name": "[PREPROD] Peacock_Edge_Regular",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "139f9f24-8cb8-40ed-9593-83b43873f2e7",
+        "name": "[PREPROD] Peacock_Edge_Priority",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "5c04ad13-cb74-4b04-9e45-6f6fed3d93b2",
+        "name": "[PREPROD] Peacock_Android_Priority",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "69611e36-dbfc-4e2a-a4ea-b1f389dc67b9",
+        "name": "[PREPROD] Peacock_Android_Regular",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "68090b76-8c7b-4f3a-aa32-e3dd21c3ed49",
+        "name": "[PREPROD] Peacock_Chrome_Regular",
+        "policy_id": "cb35ca2f-ebf7-45e1-bf43-dd7c9b4f317c",
+        "dependency_of": [{
+            "type": "task",
+            "uuid": "a5986a4f-134f-4653-8fa7-bb422aed6eb2"
+        },
+        {
+            "type": "task",
+            "uuid": "bc5d6476-8ab5-4a84-a191-a3e1080fde72"
+        }
+        ],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "b6c3e834-f556-43e3-a089-e81f88086a65",
+        "name": "[PREPROD] Peacock_X1_Priority",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [{
+            "type": "task",
+            "uuid": "249a330f-4523-4cbd-91a6-fc74dd5f3f2a"
+        }],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "579dcf73-6d18-4c9e-8954-0416dd645775",
+        "name": "[PREPROD] Peacock_X1_Regular",
+        "policy_id": "cb35ca2f-ebf7-45e1-bf43-dd7c9b4f317c",
+        "dependency_of": [{
+            "type": "task",
+            "uuid": "249a330f-4523-4cbd-91a6-fc74dd5f3f2a"
+        }],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": []
+    },
+    {
+        "id": "2b9a83d6-9136-4f65-9919-041e26fb3ca1",
+        "name": "TEST_FPI",
+        "policy_id": "6e0baad7-266d-486d-b816-6eca47860ac6",
+        "dependency_of": [],
+        "resources_deps": [],
+        "catalogs_vod_assets_attributes": [{
+            "name": "testAsset",
+            "id": "cdeb19df-35d9-4d24-90d7-2c03ee837c7e",
+            "title": "Melancholy Pursuit",
+            "search_input": "Law & Orders: Special Victims Unit",
+            "synopsis": null,
+            "asset_type": "Serie",
+            "season_number": "17",
+            "episode_number": "8",
+            "air_date": null,
+            "capture_id": null,
+            "play_duration": null,
+            "availability_date": null,
+            "expiry_date": null,
+            "vod_asset_id": "1430c6f5-4b02-4e05-bb35-bd0ea0505fdb",
+            "priority": null,
+            "created_at": "2020-01-09T15:32:14.579Z",
+            "poster": null,
+            "properties_attributes": []
+        }]
+    }
+    ]
+}
